@@ -1,0 +1,160 @@
+.headerGaleria{
+    color: white;
+    background-color: #333;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0;
+    margin-top: 10px;
+}
+.bodyGaleria {
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif, Arial;
+    color: #444;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color:darkgray;
+}
+.mainGaleria{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 8px;
+}
+nav{
+    margin-top: 8px;
+}
+.navUlGaleria {
+    position: static;
+    top: 0;
+    margin: 0;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+    border-radius: 10px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #333;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+img{
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+.footerGaleria{
+    color: white;
+    background-color: #333;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-style: italic;
+    margin-top: 8px;
+}
+/*------------------------*/
+.headerIndex{
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0;
+}
+.bodyIndex{
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif, Arial;
+    color: #444;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color:darkgray;
+}
+.mainIndex{
+    background-color: white;
+    padding: 5%;
+    margin-top: 8px;
+    width: 70%;
+    margin: 0 auto;
+}
+.navIndex{
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    position: static;
+    margin: 0;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #333;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+.footerIndex{
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-style: italic;
+    margin-top: 8px;
+}
+/*------------------------*/
+.mainLogin{
+    max-width: 300px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: gray;
+}
+
+.inputLogin{
+    color: black;
+    display: block;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.inputLogin:focus{
+    box-shadow: 0 0 5px gray;   
+    outline: none;
+}
+button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 0;
+}
